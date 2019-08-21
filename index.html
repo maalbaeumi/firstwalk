@@ -7,21 +7,35 @@
     a {
      border-style: dashed;
      text-decoration: none;
+     padding: 2px;
     }
     .korea
     {
-      font-size: 24px;
+      font-size: 16px;
       font-family: "맑은 고딕", malgun gothic;
       color: green;
     }
     .usa
     {
-      font-size: 26px;
+      font-size: 18px;
       font-family: courier;
       color: skyblue;
     }
     h1 {
      color: gray; 
+    }
+    #contour
+    {
+      display: grid;
+      display-template-columns: 300px 300px;
+    }
+    #contour #one
+    {
+     padding-left: 30px;
+    }
+    #contour #two
+    {
+     padding-left: 30px;
     }
   </style>
 </head>
@@ -32,21 +46,11 @@
     아래 내용들은 지극히 개인적인 내용입니다.<br>
     참고를 하셔도 되기는 하지만 공신력이 있다고 생각하지는 말아 주시기 바랍니다.
   </p>
-  <img src="https://bit.ly/2OIUmoD" width=800></img>
-    <ul>
+  <img src="https://bit.ly/2OIUmoD" width=600></img>
+  <div id="contour">
+     <ul>
+       <div id="one">
       <li><h3>한국</h3></li>
-        <!-- <ol>
-          <li><h5><a href="guckkasten.html" target="_blank">국카스텐</a></h5></li>
-          <li><h5><a href="suyoungkim.html" target="_blank">김수영</a></h5></li>
-          <li><h5><a href="retrofunkee.html" target="_blank">레트로펑키</a></h5></li>
-          <li><h5><a href="bol4.html" target="_blank">볼빨간사춘기</a></h5></li>
-          <li><h5><a href="brocoliyoutoo.html" target="_blank">브로콜리너마저</a></h5></li>
-          <li><h5><a href="iu.html" target="_blank">아이유</a></h5></li>
-          <li><h5><a href="yeunahn.html" target="_blank">안예은</a></h5></li>
-          <li><h5><a href="yoonha.html" target="_blank">윤하</a></h5></li>
-          <li><h5><a href="jaurim.html" target="_blank">자우림</a></h5></li>
-          <li><h5><a href="cherryfilter.html" target="_blank">체리필터</a></h5></li>
-        </ol> -->
         <ol>
           <li><h5><a href="guckkasten.html" target="_blank" class="korea">국카스텐</a></h5></li>
           <li><h5><a href="suyoungkim.html" target="_blank" class="korea">김수영</a></h5></li>
@@ -59,6 +63,8 @@
           <li><h5><a href="jaurim.html" target="_blank" class="korea">자우림</a></h5></li>
           <li><h5><a href="cherryfilter.html" target="_blank" class="korea">체리필터</a></h5></li>
         </ol>
+       </div>
+       <div id="two">
       <li><h3>USA</h3></li>
         <ol>
           <li><h5><a href="alecbenjamin.html" target="_blank" class="usa">Alec Benjamin</a></h5></li>
@@ -71,6 +77,8 @@
           <li><h5><a href="jasonmraz.html" target="_blank" class="usa">Jason Mraz</a></h5></li>
           <li><h5><a href="sabrinacarpenter.html" target="_blank" class="usa">Sabrina Carpenter</a></h5></li>
         </ol>
+       </div>
     </ul>
+  </div>
 </body>
 </html>
